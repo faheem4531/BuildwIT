@@ -1,0 +1,13 @@
+.btn-single {
+  width: 120px;
+  height: 34px;
+  background: -webkit-gradient(linear, left top, right top, from(#48825B), to(#FFC700));
+  background: linear-gradient(90deg, #48825B 0%, #FFC700 100%);
+  border-radius: 24px;
+  color: #FFFFFF;
+}
+
+.btn-single-div {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=stylebutton.css.map */

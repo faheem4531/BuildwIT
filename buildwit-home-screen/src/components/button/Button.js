@@ -6,7 +6,7 @@ const Button = () => {
     return (
         <div>
             <div>
-                
+                <button className="btn-main">Login/Sign Up</button>
             </div>
        
      </div>

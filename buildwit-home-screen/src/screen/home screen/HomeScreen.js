@@ -4,7 +4,7 @@ import SectionHeader from "../../components/section1/SectionHeader";
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div className="screen-body">
        <div><SectionHeader/></div>
     </div>
   )

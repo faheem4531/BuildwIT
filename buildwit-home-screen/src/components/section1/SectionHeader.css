@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=SectionHeader.css.map */
+.section-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#395D5A));
+  background-image: linear-gradient(180deg, #000000 0%, #395D5A 100%);
+  width: 100%;
+  height: 100vh;
+}
+
+.section-1-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 52px 80px 0 68px;
+}
+
+.section-1-logo-img {
+  width: 116px;
+}
+
+.section-1-list-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+
+.section-1-list {
+  list-style: none;
+  padding-left: 44px;
+}
+
+.section-1-list-div {
+  margin-right: auto;
+}
+
+.section-1-link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.section-1-btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=SectionHeader.css.map */
