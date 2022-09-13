@@ -3,7 +3,7 @@ import './SectionHeader.css';
 import SingleButton from "../singleButton/SingleButton";
 import Button from "../button/Button";
 import logo from "../../images/logo.svg";
-
+import video1 from "../../images/short-clip.mp4";
 
 
 const SectionHeader = () => {
@@ -25,6 +25,23 @@ const SectionHeader = () => {
              <Button/>
         </div>
 
+        </div>
+
+        <div className="section-1-content">
+            
+        <video autoPlay loop muted className="section-1-content-video" src={video1} />
+
+        <div className="section-1-content-textbox">
+            <h1 className="section-1-content-heading">
+                <span className="text-1">Builtw</span>
+                <span className="text-2">IT</span>
+            </h1>
+            <div >
+                <p className="section-1-content-para">We allow Architects, Atrists & Enthusiats to model, visualize and analyze buildings.</p>
+                <p className="section-1-content-para">Powered by World leading technologies to bring interative enviroment for everyone.</p>
+            </div>
+            <div><Button/></div>
+        </div>
         </div>
         
 
