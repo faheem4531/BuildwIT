@@ -11,7 +11,8 @@ const SectionHeader = () => {
         <div className="section-1">
         
         <div className="section-1-header">
-        <img className="section-1-logo-img"  src={logo}/>
+       
+            <div> <img className="section-1-logo-img"  src={logo}/></div>
         <div className="section-1-list-div">
             <ul className="section-1-list-ul">
                 <li className="section-1-list"><a href="#" className="section-1-link">How it Works</a></li>
@@ -28,8 +29,11 @@ const SectionHeader = () => {
         </div>
 
         <div className="section-1-content">
-            
-        <video autoPlay loop muted className="section-1-content-video" src={video1} />
+           
+                <div className="section-1-content-video-div">
+                    <video autoPlay loop muted className="section-1-content-video" src={video1} />
+                </div>
+                
 
         <div className="section-1-content-textbox">
             <h1 className="section-1-content-heading">
@@ -42,6 +46,9 @@ const SectionHeader = () => {
             </div>
             <div><Button/></div>
         </div>
+           
+            
+        
         </div>
         
 
