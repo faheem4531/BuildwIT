@@ -5,7 +5,7 @@ import './Button.css';
 const Button = () => {
     return (
         <div>
-            <div>
+            <div className="btn-div">
                 <button className="btn-main">Login/Sign Up</button>
             </div>
        
