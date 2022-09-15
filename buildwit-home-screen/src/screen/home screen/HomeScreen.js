@@ -6,6 +6,7 @@ import SectionThird from "../../components/section3/SectionThird";
 import SectionForth from "../../components/section4/SectionForth";
 import SectionForm from "../../components/sectionForm/SectionForm";
 import Clients from "../../components/section-clinents/Clients";
+import Footer from "../../components/footer/Footer";
 
 
 const HomeScreen = () => {
@@ -17,6 +18,7 @@ const HomeScreen = () => {
        <div><SectionForth/></div>
        <div><SectionForm/></div>
        <div><Clients/></div>
+       <div><Footer/></div>
     </div>
   )
 }
