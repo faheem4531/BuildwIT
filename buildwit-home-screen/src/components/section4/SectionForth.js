@@ -26,32 +26,35 @@ const sectionForth = () => {
                         <a  href="#">
                         <img className="section-4-img" src={image1}/>
                         </a>
-                        <div class="img-dis"> Modern City Project</div>
+                        <div className="img-dis"> Modern City Project</div>
                     </div>
                     
                     <div className="img-box">
                         <a  href="#">
                         <img className="section-4-img" src={image2}/>
                         </a>
-                        <div class="img-dis"> City Project</div>
+                        <div className="img-dis"> City Project</div>
                     </div>     
 
                     <div className="img-box">
                         <a  href="#">
                         <img className="section-4-img" src={image3}/>
                         </a>
-                        <div class="img-dis"> Urban Project</div>
+                        <div className="img-dis"> Urban Project</div>
                     </div>    
 
                     <div className="img-box">
                         <a  href="#">
                         <img className="section-4-img" src={image4}/>
                         </a>
-                        <div class="img-dis"> Downtown Project</div>
+                        <div className="img-dis"> Downtown Project</div>
                     </div>         
 
                 </div>
-                <Button buttonTitle='Discover all Projects'/>
+                <div className="btn-div">
+                    <Button buttonTitle='Discover all Projects'/>
+                </div>
+                
             </div>
         </div>
     )

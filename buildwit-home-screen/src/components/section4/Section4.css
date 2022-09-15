@@ -23,8 +23,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transition: scale 1s;
-  transition: scale 1s;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 290px;
+  width: 76%;
 }
 
 .section-4-img {
@@ -32,14 +35,13 @@
 }
 
 .img-box {
-  margin: 5px;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .img-box:hover {
-  -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
   -webkit-box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
