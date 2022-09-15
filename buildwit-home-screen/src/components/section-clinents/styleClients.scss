@@ -1,0 +1,89 @@
+.clients-container{
+    height: 100vh;
+    width: 100%;
+    // background-color: #444;
+    // display: flex;
+    // align-items: center;
+    // flex-direction: column;
+    position: relative;
+
+}
+
+.mid-div{
+    height: 45.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+//text styling
+
+.textbox{
+    width: 71.5%;
+}
+
+.client-para{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px; 
+        color: #395D5A;
+}
+
+
+//Clients cards
+.clients-row{
+    display: flex;
+    width: 71.5%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin-top: 26px;
+
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .card-div{
+        text-align: center;
+        color: #395D5A;
+        font-size: 16px;
+        line-height: 16px;
+        
+        &:not(:last-child){
+            margin-right: 14px;
+        }
+
+
+        div{
+            width: 160px;
+            height: 156px;
+            background: #C4C4C4;
+            border-radius: 10px;
+            margin-bottom: 9px;
+        }
+    }
+}
+
+
+
+
+//cliping
+
+.upper-clip{   
+    height: 30.5%;
+    width: 100%;
+    background-color: rgba(57, 93, 90, 0.1);
+    clip-path: polygon(100% 0, 13% 0, 100% 100%);
+}
+
+.bottom-clip{
+    height: 24%;
+    width: 100%;
+    background-color: rgba(57, 93, 90, 0.1);
+    clip-path: polygon(80% 100%, 0 0, 0 100%);
+
+}
