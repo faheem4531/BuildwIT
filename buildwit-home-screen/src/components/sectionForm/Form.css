@@ -1,1 +1,105 @@
-/* No CSS *//*# sourceMappingURL=Form.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-form {
+  height: 100vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(57, 93, 90, 0.95)), color-stop(99.1%, rgba(72, 130, 91, 0.95)));
+  background-image: linear-gradient(90deg, rgba(57, 93, 90, 0.95) 0%, rgba(72, 130, 91, 0.95) 99.1%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.section-form-card {
+  background-color: #fff;
+  height: 50%;
+  width: 50%;
+  margin-left: 12%;
+  padding: 25px;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 100;
+}
+
+.image-div {
+  background-color: yellow;
+}
+
+.sec-5-img {
+  width: 47%;
+  height: 76.5%;
+  position: absolute;
+  right: 12.36%;
+  top: 11.66%;
+  bottom: 11.66%;
+  border-radius: 10px;
+}
+
+input, textarea {
+  outline-style: none;
+}
+
+.input-section {
+  height: 10%;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inputs {
+  width: 50%;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 1px solid  #A6AAB4;
+}
+
+.inputs::-webkit-input-placeholder {
+  font-size: 12px;
+}
+
+.inputs:-ms-input-placeholder {
+  font-size: 12px;
+}
+
+.inputs::-ms-input-placeholder {
+  font-size: 12px;
+}
+
+.inputs::placeholder {
+  font-size: 12px;
+}
+
+.textarea {
+  width: 90%;
+  height: 28%;
+  margin-bottom: 20px;
+  border: 1px solid  #A6AAB4;
+  border-radius: 5px;
+  padding: 1% 5%;
+  color: #717274;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.top-space {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=Form.css.map */
