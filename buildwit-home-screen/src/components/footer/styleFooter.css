@@ -14,6 +14,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .footer-content {
@@ -67,14 +68,13 @@
 
 .footer-content .right-section {
   height: 100%;
-  width: 100%;
   border-left: 1px solid #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -83,7 +83,7 @@
 
 .footer-content .right-section ul {
   list-style: none;
-  padding-left: 90px;
+  padding-left: 70px;
 }
 
 .footer-content .right-section ul .list-heading {
@@ -99,10 +99,21 @@
   font-size: 17px;
   line-height: 21px;
   padding-bottom: 13px;
+  width: 130px;
 }
 
 .footer-content .right-section ul li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .copyright {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 5%;
+  right: 20%;
 }
 /*# sourceMappingURL=styleFooter.css.map */

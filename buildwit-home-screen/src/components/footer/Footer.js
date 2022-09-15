@@ -58,7 +58,7 @@ const Footer = () =>{
                 
             </div>
 
-
+            <div className="copyright">Copyright © 2022 BuiltwIT. All rights reserved.</div>
         </div>
     )
 }
