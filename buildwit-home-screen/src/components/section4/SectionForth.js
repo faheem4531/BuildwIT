@@ -52,7 +52,6 @@ const sectionForth = () => {
 
                 </div>
                 <Button buttonTitle='Discover all Projects'/>
-
             </div>
         </div>
     )
