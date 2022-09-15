@@ -40,6 +40,13 @@
 
 .img-box {
   margin: 5px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.img-box:hover {
+  -webkit-transform: scale(0.95, 0.95);
+          transform: scale(0.95, 0.95);
 }
 
 .img-box:not(:last-child) {

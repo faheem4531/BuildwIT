@@ -8,9 +8,21 @@
     box-shadow: 0px 10px 12px rgba(72, 130, 91, 0.25);
     font-size: 12px;
     line-height: 14px;
+    transition: all .5s;
+
+
+    &:hover{
+        transform: scale(1.05, 1.05);
+    }
     
-
-
-
 }
 
+// .btn-div{
+//     transition: all .5s;
+    
+
+//     &:hover{
+//    margin-left: 20px;
+//     }
+    
+// }
