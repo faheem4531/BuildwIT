@@ -18,7 +18,7 @@ const SectionSecond = () => {
               Include analysis and simulation tools created by industry experts to predict and drive performance. Take designs from concept to construction, system by system.</p>
           </div>
           <div className="section-2-content-text-btn">
-             <Button/>
+          <Button buttonTitle='Get Started' />
           </div>
         </div>
 

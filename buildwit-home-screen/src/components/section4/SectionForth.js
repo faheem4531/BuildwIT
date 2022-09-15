@@ -51,7 +51,7 @@ const sectionForth = () => {
                     </div>         
 
                 </div>
-                <Button/>
+                <Button buttonTitle='Discover all Projects'/>
 
             </div>
         </div>

@@ -5,5 +5,104 @@
   background-image: url(../../images/footer-bg.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  width: 75%;
+}
+
+.footer-content .left-section {
+  display: inline-block;
+}
+
+.footer-content .logo-card {
+  width: 365px;
+  height: 223px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-content .logo-card img {
+  width: 80%;
+}
+
+.footer-content .icon-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-content .icon-div img:not(:last-child) {
+  margin-right: 15px;
+}
+
+.footer-content .right-section {
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 60px;
+}
+
+.footer-content .right-section ul {
+  list-style: none;
+  padding-left: 90px;
+}
+
+.footer-content .right-section ul .list-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.footer-content .right-section ul li {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  padding-bottom: 13px;
+}
+
+.footer-content .right-section ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 /*# sourceMappingURL=styleFooter.css.map */

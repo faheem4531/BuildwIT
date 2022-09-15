@@ -27,7 +27,7 @@ const SectionThird= () => {
                     <video className='section-3-video' controls loop src={video2}/>
                 </div>
 
-                   <div><Button/></div> 
+                   <div><Button buttonTitle='Get Started'/></div> 
  
                 <div className='clip-background'></div>
           

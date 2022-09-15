@@ -23,7 +23,7 @@ const SectionForm = () => {
                         <input className="inputs" type="text" placeholder="Country" />
                     </div>
                     <textarea className="textarea"></textarea>
-                    <Button/>
+                    <Button buttonTitle='Submit'/>
                 
 
             </div>  <img className="sec-5-img" src={imageb}/>

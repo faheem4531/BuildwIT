@@ -23,7 +23,7 @@ const SectionHeader = () => {
         </div>
         <div className="section-1-btn-div">
             <SingleButton/> 
-             <Button/>
+             <Button buttonTitle='Login/Sign Up' />
         </div>
 
         </div>
@@ -44,7 +44,7 @@ const SectionHeader = () => {
                 <p className="section-1-content-para">We allow Architects, Atrists & Enthusiats to model, visualize and analyze buildings.</p>
                 <p className="section-1-content-para">Powered by World leading technologies to bring interative enviroment for everyone.</p>
             </div>
-            <div><Button/></div>
+            <div className="btn-width"><Button buttonTitle='Create a Free Account'/></div>
         </div>
            
             
