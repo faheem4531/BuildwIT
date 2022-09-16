@@ -31,18 +31,17 @@
 }
 
 .section-2-content-text {
-  max-width: 400px;
-  min-width: 150px;
+  width: 27%;
 }
 
 .section-2-content-text-heading {
   font-weight: 600;
-  font-size: 43px;
+  font-size: 48px;
 }
 
 .section-2-content-text-para-div {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 21px;
 }
 
@@ -51,7 +50,7 @@
 }
 
 .section-2-content-img-div {
-  width: 45%;
+  width: 37%;
   margin-left: 40px;
 }
 
