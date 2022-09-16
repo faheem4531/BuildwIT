@@ -52,6 +52,7 @@ const Clients = () => {
                     <span>Client 8</span>
                 </div>
             </div>
+            
             </div>
 
             <div className="bottom-clip"></div>

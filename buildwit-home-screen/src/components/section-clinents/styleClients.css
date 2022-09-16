@@ -43,6 +43,16 @@
   scrollbar-width: none;
 }
 
+.clients-row-item::afer {
+  content: "";
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  margin-right: .7rem;
+  background-image: url(../../images/icon-left.png);
+  background-size: cover;
+}
+
 .clients-row::-webkit-scrollbar {
   display: none;
 }
