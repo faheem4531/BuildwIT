@@ -63,8 +63,10 @@
         
 
         &-video-div{
-            width: 40%;
+            width: 43%;
             margin-right: 50px;
+            
+            background-color: yellow;
             
         }
         &-video{
@@ -76,7 +78,8 @@
         }
 
         &-textbox{
-            width: 30%;font-size: 18px;
+            width: 30%;
+            font-size: 18px;
         }
 
         &-heading{
@@ -87,8 +90,7 @@
         }
         &-para{
             color: #FFFFFF;
-            font-weight: 400;
-            
+            font-weight: 400;  
             line-height: 21px;
             padding-bottom: 18px;
         }

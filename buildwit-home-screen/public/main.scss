@@ -1,0 +1,9 @@
+html{
+    font-size: 62.5%;  //thats mean 1 rem = 10px
+
+
+
+    @media only screen and (max-width:900px){
+        font-size: 50%;
+    }
+}

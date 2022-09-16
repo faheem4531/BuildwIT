@@ -1,0 +1,10 @@
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
