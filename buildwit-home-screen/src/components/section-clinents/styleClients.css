@@ -27,8 +27,8 @@
 
 .client-para {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 20px;
   color: #395D5A;
 }
 
@@ -50,7 +50,7 @@
 .clients-row .card-div {
   text-align: center;
   color: #395D5A;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 16px;
 }
 

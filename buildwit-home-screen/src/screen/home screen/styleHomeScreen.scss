@@ -1,9 +1,22 @@
-.screen-body{
-    font-size: 62.5%;
+
+*{
+    margin: 0;
+    font-size: 100%;
 
     padding: 0;
     box-sizing: border-box;
+
+    @media only screen and (max-width:980px){
+        font-size: 80.5%;
+    }
+
+
+
+
+
+
+
+
+
 }
-*{
-        margin: 0;
-}
+

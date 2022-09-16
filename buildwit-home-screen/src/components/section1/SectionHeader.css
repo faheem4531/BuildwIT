@@ -31,12 +31,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 14px;
 }
 
 .section-1-list {
   list-style: none;
   padding-left: 44px;
+  font-size: 16px;
 }
 
 .section-1-list-div {
@@ -52,6 +52,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 980px) {
+  .section-1-btn-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 75px;
+  }
 }
 
 .section-1-content {

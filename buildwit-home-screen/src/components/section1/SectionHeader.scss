@@ -26,11 +26,12 @@
 
     &-list-ul{
         display: flex;
-        font-size: 14px;
+       
     }
     &-list{
         list-style: none;
         padding-left: 44px;
+        font-size: 16px;
     }
     &-list-div{
         margin-right: auto;
@@ -43,6 +44,14 @@
 
     &-btn-div{
         display: flex;
+       
+      
+
+        @media only screen and (max-width:980px){
+            flex-direction: column;
+            justify-content: space-between; 
+            height: 75px;
+        }
     }
     
     &-content{
@@ -81,7 +90,6 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 21px;
-            // width: 400px;
             padding-bottom: 18px;
         }
     }

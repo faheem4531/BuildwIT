@@ -53,7 +53,7 @@ input, textarea {
 }
 
 .input-section {
-  height: 10%;
+  height: 12%;
   margin-bottom: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -70,19 +70,19 @@ input, textarea {
 }
 
 .inputs::-webkit-input-placeholder {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .inputs:-ms-input-placeholder {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .inputs::-ms-input-placeholder {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .inputs::placeholder {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .textarea {
