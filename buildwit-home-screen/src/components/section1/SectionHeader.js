@@ -22,7 +22,7 @@ const SectionHeader = () => {
             </ul>
         </div>
         <div className="section-1-btn-div">
-            <SingleButton/> 
+            <SingleButton /> 
              <Button buttonTitle='Login/Sign Up' />
         </div>
 
@@ -36,7 +36,7 @@ const SectionHeader = () => {
                 
 
         <div className="section-1-content-textbox">
-            <h1 className="section-1-content-heading">
+            <h1 className="section-1-content-heading ">
                 <span className="text-1">Builtw</span>
                 <span className="text-2">IT</span>
             </h1>

@@ -54,7 +54,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   .section-1-btn-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -96,6 +96,7 @@
 
 .section-1-content-textbox {
   width: 30%;
+  font-size: 18px;
 }
 
 .section-1-content-heading {
@@ -108,7 +109,6 @@
 .section-1-content-para {
   color: #FFFFFF;
   font-weight: 400;
-  font-size: 18px;
   line-height: 21px;
   padding-bottom: 18px;
 }
