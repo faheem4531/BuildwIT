@@ -6,9 +6,9 @@
           box-sizing: border-box;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   * {
-    font-size: 80.5%;
+    font-size: 90%;
   }
 }
 /*# sourceMappingURL=styleHomeScreen.css.map */
