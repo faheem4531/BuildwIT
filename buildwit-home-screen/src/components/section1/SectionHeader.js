@@ -13,15 +13,18 @@ const SectionHeader = () => {
         
         <div className="section-1-header">
        
-            <div> <img className="section-1-logo-img"  src={logo}/></div>
+        <div className="logo-list-div">
+        <img className="section-1-logo-img"  src={logo}/>
         <div className="section-1-list-div">
             <ul className="section-1-list-ul">
-                <li className="section-1-list"><a href="#" className="section-1-link">How it Works</a></li>
+                <li className="section-1-list list-1"><a href="#" className="section-1-link">How it Works</a></li>
                 <li className="section-1-list"><a href="#" className="section-1-link">Pricing</a></li>
                 <li className="section-1-list"><a href="#" className="section-1-link">Resources</a></li>
                 <li className="section-1-list"><a href="#" className="section-1-link">About</a></li>
             </ul>
         </div>
+        </div>        
+        
         <div className="section-1-btn-div">
             <SingleButton /> 
              <Button buttonTitle='Login/Sign Up' />
