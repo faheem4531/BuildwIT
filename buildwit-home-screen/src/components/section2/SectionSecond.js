@@ -23,9 +23,9 @@ const SectionSecond = () => {
           </div>
         </div>
 
-        <div className='section-2-content-img-div'>
-          <img className='section-2-content-img' src={image} /> 
-        </div>
+        
+        <img className='section-2-content-img' src={image} /> 
+        
       </div>
         </div> 
  

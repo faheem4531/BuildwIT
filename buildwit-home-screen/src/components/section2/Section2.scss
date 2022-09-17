@@ -19,10 +19,17 @@
         justify-content: center;
         align-items: center;
 
-
+        @media only screen and (max-width:1000px){
+            flex-direction: column;
+        
+        }
 
         &-text{
             width: 27%;
+
+            @media only screen and (max-width:1000px){
+                width: 80%;
+            }
             
 
 
@@ -54,15 +61,28 @@
 
         &-img-div{
             width:37% ;
+            
             margin-left: 40px;
+
+            @media only screen and (max-width:1000px){
+                width: 50%;
+                height: 50%;
+                // margin-left: 40%;
+                background-color: pink;
+            }
         }
 
         &-img{
-            width:100% ;
-            
+            width:37%;
+            margin-left: 40px;
+
             filter: drop-shadow(-20px 20px 20px rgba(57, 93, 90, 0.2));
             border-radius: 10px;
           
+
+            @media only screen and (max-width:1000px){
+                width: 25%;
+            }
         }
     }
 }
