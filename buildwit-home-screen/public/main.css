@@ -2,9 +2,13 @@ html {
   font-size: 62.5%;
 }
 
-@media only screen and (max-width: 900px) {
-  html {
-    font-size: 50%;
+* {
+  font-size: 62.5;
+}
+
+@media only screen and (max-width: 62.5em) {
+  * {
+    font-size: 59%;
   }
 }
 /*# sourceMappingURL=main.css.map */

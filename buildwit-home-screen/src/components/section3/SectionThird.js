@@ -13,8 +13,8 @@ const SectionThird= () => {
 </div>
             <div className='section-3-content'>
                 <div className='primary-textbox'>
-                    <h1 className='primary-heading'>How it Works</h1>
-                    <div className='section-3-para-div'>
+                    <div className='primary-heading'><span>How it Works</span></div>
+                    <div className='para-div'>
                         <p className='primary-para'>With BuildwIT, anyone can generate, visualize and analyze buildings to make better decisions 
                         faster. You can easily add your own processes and expertise so you don’t start from square one with each new project.</p>
                         <p className='primary-para'>Quickly generate proposals by combining different building systems that intelligently interact. 

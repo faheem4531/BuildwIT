@@ -70,19 +70,19 @@ input, textarea {
 }
 
 .inputs::-webkit-input-placeholder {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .inputs:-ms-input-placeholder {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .inputs::-ms-input-placeholder {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .inputs::placeholder {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .textarea {

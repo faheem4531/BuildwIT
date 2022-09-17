@@ -6,7 +6,7 @@
 }
 
 .mid-div{
-    height: 49.5%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,16 +18,39 @@
 
 //text styling
 
-.textbox{
+.client-textbox{
     width: 71.5%;
+    color: #395D5A;
+    // background-color: yellow;
+    
+    
+    .client-heading{
+        font-size: 48px;        
+        font-weight: 600;  
+        display: inline-block;   
+        margin-bottom: 1.2rem;   
+        }
+
+    .client-para-div{
+        color: #395D5A;
+        font-size: 18px;        
+        font-weight: 500;        
+        line-height: 20px; 
+    }
 }
 
-.client-para{
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 20px; 
-        color: #395D5A;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Clients cards
@@ -35,9 +58,9 @@
     
     display: flex;
     width: 71.5%;
-    margin-top: 26px;
-    overflow-x: scroll;    
-    overflow-y: visible;
+    margin-top: 2.6rem;
+    overflow-x: scroll;
+    height: 100%;  
     scrollbar-width: none;
 
 
@@ -51,11 +74,11 @@
     .card-div{
         text-align: center;
         color: #395D5A;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 16px;
         
         &:not(:last-child){
-            margin-right: 14px;
+            margin-right: 1.4rem;
         }
 
 
@@ -75,7 +98,7 @@
 //cliping
 
 .upper-clip{   
-    height: 28.5%;
+    height: 28%;
     width: 100%;
     background-color: rgba(57, 93, 90, 0.1);
     clip-path: polygon(100% 0, 13% 0, 100% 100%);

@@ -52,28 +52,35 @@ height: 15vh;
 
 //global text 
 
+
+
 .primary-textbox{
-    max-width: 65%;
+    max-width: 65%;   
     color: #395D5A;
 
+    .primary-heading{
+        font-size: 48px;
+        display: inline-block;
+        font-weight: 600;
+    }
 
-}
-.primary-heading{
-    font-weight: 600;
-    font-size: 48px;
-    display: inline-block;
-    color: #395D5A;
+
+.para-div{
+    font-size: 18px;    
+    font-weight: 500;
+    line-height: 21px;
 }
 
 .primary-para{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 21px;
-
+    
     &:not(:last-child){
         padding:15px 0 20px 0;
     }
 }
+
+}
+
+
 
 
 

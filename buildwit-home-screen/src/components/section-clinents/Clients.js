@@ -1,5 +1,7 @@
 import React from "react";
 import './styleClients.css';
+
+
 import left from '../../images/icon-left.png';
 import right from '../../images/icon-right.png';
 
@@ -12,9 +14,11 @@ const Clients = () => {
 
             <div className="mid-div">
  
-            <div className="textbox">
-                <h1 className="primary-heading">Our Clients</h1>
-                <p className="client-para">With BuildwIT, anyone can generate, visualize and analyze buildings to make better decisions faster. You can easily add your own processes and expertise so you don’t start from square one with each new project.</p>
+            <div className='client-textbox'>
+                <div className='client-heading'><span>Our Clients </span></div>
+                <div className='client-para-div'>
+                    <p className='primary-para'>With BuildwIT, anyone can generate, visualize and analyze buildings to make better decisions faster. You can easily add your own processes and expertise so you don’t start from square one with each new project.</p>
+                </div>
             </div>
                 
 

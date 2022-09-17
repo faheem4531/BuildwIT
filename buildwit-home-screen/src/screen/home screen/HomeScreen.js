@@ -12,13 +12,13 @@ import Footer from "../../components/footer/Footer";
 const HomeScreen = () => {
   return (
     <div className="screen-body">
-       <div><SectionHeader/></div>
-       <div><SectionSecond/></div>
-       <div><SectionThird/></div>
-       <div><SectionForth/></div>
-       <div><SectionForm/></div>
-       <div><Clients/></div>
-       <div><Footer/></div>
+       <SectionHeader/>
+       <SectionSecond/>
+       <SectionThird/>
+       <SectionForth/>
+       <SectionForm/>
+       <Clients/>
+       <Footer/>
     </div>
   )
 }

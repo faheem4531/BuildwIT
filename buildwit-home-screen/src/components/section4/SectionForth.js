@@ -12,15 +12,13 @@ const sectionForth = () => {
     return(
         <div className="section-4">
             <div className="section-4-context">
-                <div className="primary-textbox">
-                    <h1 className="primary-heading">Sample Projects</h1>  
-                    <div>
-                        <p className='primary-para'>With BuildwIT, anyone can generate, visualize and analyze buildings to make better decisions 
-                        faster. You can easily add your own processes and expertise so you don’t start from square one with each new project.</p>
-                        <p className='primary-para'>Quickly generate proposals by combining different building systems that intelligently interact. 
-                        Include analysis and simulation tools created by industry experts to predict and drive performance. Take designs from concept to construction, system by system.</p>
-                    </div>
+            <div className='primary-textbox'>
+                <div className='primary-heading'><span>Sample Projects</span></div>
+                <div className='para-div'>
+                    <p className='primary-para'>With BuildwIT, anyone can generate, visualize and analyze buildings to make better decisions faster. You can easily add your own processes and expertise so you don’t start from square one with each new project.  </p>
+                    <p className='primary-para'>With BuildwIT, anyone can generate, visualize and analyze buildings to make better decisions faster. You can easily add your own processes and expertise so you don’t start from square one with each new project.</p>
                 </div>
+            </div>
                 <div className="section-4-img-div">
                     <div className="img-1-box img-box">
                         <a  href="#">

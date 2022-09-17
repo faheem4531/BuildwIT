@@ -58,20 +58,19 @@
   color: #395D5A;
 }
 
-.primary-heading {
-  font-weight: 600;
+.primary-textbox .primary-heading {
   font-size: 48px;
   display: inline-block;
-  color: #395D5A;
+  font-weight: 600;
 }
 
-.primary-para {
+.primary-textbox .para-div {
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
 }
 
-.primary-para:not(:last-child) {
+.primary-textbox .primary-para:not(:last-child) {
   padding: 15px 0 20px 0;
 }
 

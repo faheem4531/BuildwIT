@@ -5,7 +5,7 @@
 }
 
 .mid-div {
-  height: 49.5%;
+  height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,15 +21,23 @@
           flex-direction: column;
 }
 
-.textbox {
+.client-textbox {
   width: 71.5%;
+  color: #395D5A;
 }
 
-.client-para {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
+.client-textbox .client-heading {
+  font-size: 48px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 1.2rem;
+}
+
+.client-textbox .client-para-div {
   color: #395D5A;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .clients-row {
@@ -37,9 +45,9 @@
   display: -ms-flexbox;
   display: flex;
   width: 71.5%;
-  margin-top: 26px;
+  margin-top: 2.6rem;
   overflow-x: scroll;
-  overflow-y: visible;
+  height: 100%;
   scrollbar-width: none;
 }
 
@@ -50,12 +58,12 @@
 .clients-row .card-div {
   text-align: center;
   color: #395D5A;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 16px;
 }
 
 .clients-row .card-div:not(:last-child) {
-  margin-right: 14px;
+  margin-right: 1.4rem;
 }
 
 .clients-row .card-div div {
@@ -67,7 +75,7 @@
 }
 
 .upper-clip {
-  height: 28.5%;
+  height: 28%;
   width: 100%;
   background-color: rgba(57, 93, 90, 0.1);
   -webkit-clip-path: polygon(100% 0, 13% 0, 100% 100%);
