@@ -22,9 +22,25 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 700px) {
+  .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .footer-content .left-section {
   width: 30%;
   height: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-content .left-section {
+    width: 25%;
+    height: 30%;
+  }
 }
 
 .footer-content .logo-card {
@@ -59,6 +75,12 @@
           justify-content: center;
 }
 
+@media only screen and (max-width: 1000px) {
+  .footer-content .icon-div {
+    height: 20%;
+  }
+}
+
 .footer-content .icon-div img {
   width: 13%;
 }
@@ -83,17 +105,50 @@
   margin-left: 60px;
 }
 
+@media only screen and (max-width: 700px) {
+  .footer-content .right-section {
+    height: 35%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-content .right-section {
+    margin-left: 30px;
+    width: 40%;
+    border: none;
+  }
+}
+
 .footer-content .right-section ul {
   list-style: none;
   padding-left: 70px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .footer-content .right-section ul {
+    padding-left: 30px;
+  }
+}
+
 .footer-content .right-section ul .list-heading {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 28px;
   color: #FFFFFF;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-content .right-section ul .list-heading {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    line-height: 21px;
+  }
+}
+
+.footer-content .right-section ul .span {
+  width: 101px;
 }
 
 .footer-content .right-section ul li {
@@ -101,7 +156,15 @@
   font-size: 18px;
   line-height: 21px;
   padding-bottom: 11px;
-  width: 130px;
+  width: 15rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-content .right-section ul li {
+    font-weight: 400;
+    font-size: 15px;
+    width: auto;
+  }
 }
 
 .footer-content .right-section ul li a {

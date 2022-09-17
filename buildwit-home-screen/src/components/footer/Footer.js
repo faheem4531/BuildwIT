@@ -27,7 +27,7 @@ const Footer = () =>{
                 <div className="right-section">
 
                     <ul>
-                        <li className="list-heading">Our Clients</li>
+                        <li className="list-heading span">Our Clients</li>
                         <li><a href="#">Wesbite link</a></li>
                         <li><a href="#">Wesbite link</a></li>
                         <li><a href="#">Wesbite link</a></li>

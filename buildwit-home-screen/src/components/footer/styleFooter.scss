@@ -15,12 +15,24 @@
         height: 100%;
         width: 100%;
         
+        
+        @media only screen and (max-width:700px){
 
+            flex-direction: column;
+            
+        }         
+        
 
         .left-section{
             width: 30%;
             height: 40%;
+// background-color: yellow;
 
+@media only screen and (max-width:1000px){
+
+    width: 25%;
+    height: 30%;
+}
 
         }
 
@@ -45,10 +57,15 @@
             display: flex;
             justify-content: center;
             
+            @media only screen and (max-width:1000px){
 
+                height: 20%;
+            }
 
             img{
                 width: 13%;
+
+                
                 &:not(:last-child){
                     margin-right: 15px;
                 }
@@ -65,18 +82,51 @@
             justify-content: center;
             align-items: center;
             margin-left: 60px;
+            // background-color: rgb(161, 161, 142);
+
+
+
+            @media only screen and (max-width:700px){
+
+                height: 35%;
+                
+            } 
+
+            @media only screen and (max-width:1000px){
+
+                margin-left: 30px;
+                width: 40%;
+                border: none;
+            }
 
             ul{
                 list-style: none;
                 padding-left: 70px;
 
-                
+                @media only screen and (max-width:1000px){
+
+                    padding-left: 30px;
+                }
+
+
                 .list-heading{
                     font-weight: 600;
-                    font-size: 24px;
+                    font-size: 2.4rem;
                     line-height: 28px;
                     color: #FFFFFF;
                     margin-bottom: 50px;
+
+                    @media only screen and (max-width:1000px){
+
+                        font-weight: 500;
+                        font-size: 2rem;
+                        margin-bottom: 25px;
+                        line-height: 21px;
+                    }
+                    }
+
+                    .span{
+                        width: 101px;
                     }
 
                     li{
@@ -85,7 +135,16 @@
                         font-size: 18px;
                         line-height: 21px;
                         padding-bottom: 11px;
-                        width: 130px;
+                        width: 15rem;
+                  
+
+                        @media only screen and (max-width:1000px){
+
+                            font-weight: 400;
+                            font-size: 15px;
+                            width: auto;
+                        
+                        }
 
                         a{
                             text-decoration: none;
@@ -93,6 +152,7 @@
                         }
                     }
             }
+
         }
   
     }
