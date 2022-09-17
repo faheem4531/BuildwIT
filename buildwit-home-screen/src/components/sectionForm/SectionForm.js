@@ -1,6 +1,5 @@
 import React from "react";
 import './Form.css';
-import '../section3/Section3.css';
 import Button from "../button/Button";
 import imageb from '../../images/sec-5-img.PNG';
 
@@ -13,7 +12,7 @@ const SectionForm = () => {
 
             <div className="section-form-card">
               
-                    <h1 className="primary-heading">Inquire your Interest</h1>
+                    <h1 className="form-heading">Inquire your Interest</h1>
                     <div className="input-section top-space">
                         <input className=" inputs margin-right" type="text" placeholder="Full Name" />
                         <input className="inputs" type="text" placeholder="Username" />
