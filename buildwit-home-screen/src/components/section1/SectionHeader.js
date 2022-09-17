@@ -1,5 +1,6 @@
 import React from "react";
 import './SectionHeader.css';
+import '../../components/utilities/Media.css';
 import SingleButton from "../singleButton/SingleButton";
 import Button from "../button/Button";
 import logo from "../../images/logo.svg";
@@ -40,7 +41,7 @@ const SectionHeader = () => {
                 <span className="text-1">Builtw</span>
                 <span className="text-2">IT</span>
             </h1>
-            <div >
+            <div className="section-1-content-para-div" >
                 <p className="section-1-content-para">We allow Architects, Atrists & Enthusiats to model, visualize and analyze buildings.</p>
                 <p className="section-1-content-para">Powered by World leading technologies to bring interative enviroment for everyone.</p>
             </div>
