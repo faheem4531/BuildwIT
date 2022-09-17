@@ -64,28 +64,15 @@
   padding-top: 30px;
 }
 
-.section-2-content-img-div {
-  width: 37%;
-  margin-left: 40px;
-}
-
-@media only screen and (max-width: 1000px) {
-  .section-2-content-img-div {
-    width: 50%;
-    height: 50%;
-    background-color: pink;
-  }
-}
-
 .section-2-content-img {
-  width: 37%;
+  width: 33%;
   margin-left: 40px;
   -webkit-filter: drop-shadow(-20px 20px 20px rgba(57, 93, 90, 0.2));
           filter: drop-shadow(-20px 20px 20px rgba(57, 93, 90, 0.2));
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 100px) {
   .section-2-content-img {
     width: 25%;
   }
