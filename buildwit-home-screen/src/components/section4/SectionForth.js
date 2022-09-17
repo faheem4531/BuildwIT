@@ -20,7 +20,7 @@ const sectionForth = () => {
                 </div>
             </div>
                 <div className="section-4-img-div">
-                    <div className="img-1-box img-box">
+                    <div className="img-box">
                         <a  href="#">
                         <img className="section-4-img" src={image1}/>
                         </a>

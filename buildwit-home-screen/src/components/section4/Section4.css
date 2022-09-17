@@ -1,5 +1,6 @@
 .section-4 {
-  height: 120vh;
+  height: auto;
+  margin: 5rem 0;
 }
 
 .section-4-context {
@@ -19,14 +20,14 @@
 }
 
 .section-4-img-div {
-  margin: 50px 0;
+  margin: 5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 290px;
+  height: 38%;
   width: 76%;
 }
 
@@ -49,13 +50,13 @@
 }
 
 .img-box:not(:last-child) {
-  padding-right: 10px;
+  padding-right: 1.5rem;
 }
 
 .img-dis {
   padding: 8px 0 8px 5px;
   color: #395D5A;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=Section4.css.map */
