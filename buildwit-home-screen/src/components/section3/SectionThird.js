@@ -8,9 +8,7 @@ const SectionThird= () => {
     return (
    
         <div className='section-3'> 
-<div className='blank'>
 
-</div>
             <div className='section-3-content'>
                 <div className='primary-textbox'>
                     <div className='primary-heading'><span>How it Works</span></div>
@@ -29,11 +27,11 @@ const SectionThird= () => {
 
                    <div><Button buttonTitle='Get Started'/></div> 
  
-                <div className='clip-background'></div>
+                
           
             </div>
 
-
+<div className='clip-background'></div>
 
 
 

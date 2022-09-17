@@ -1,10 +1,7 @@
-.blank {
-  height: 15vh;
-}
-
 .section-3 {
-  height: 130vh;
+  height: auto;
   position: relative;
+  margin-bottom: 7rem;
 }
 
 .section-3-content {
@@ -21,6 +18,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 7rem 0;
 }
 
 .section-3-video-div {
@@ -33,6 +31,21 @@
   margin: 70px 0 60px 0;
 }
 
+@media only screen and (max-width: 1000px) {
+  .section-3-video-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .section-3-video {
   width: 25%;
   border-radius: 7px;
@@ -43,14 +56,28 @@
   margin-right: 40px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .section-3-video:not(:last-child) {
+    margin: 0 0 40px 0;
+  }
+}
+
 .clip-background {
-  height: 130vh;
+  height: 100%;
   width: 100%;
   background-color: rgba(57, 93, 90, 0.1);
   position: absolute;
-  bottom: 0;
+  bottom: -7rem;
   -webkit-clip-path: polygon(0 46%, 100% 71%, 100% 100%, 0 76%);
           clip-path: polygon(0 46%, 100% 71%, 100% 100%, 0 76%);
+}
+
+@media only screen and (max-width: 1000px) {
+  .clip-background {
+    -webkit-clip-path: polygon(0 34%, 100% 56%, 100% 100%, 0 83%);
+            clip-path: polygon(0 34%, 100% 56%, 100% 100%, 0 83%);
+    bottom: 0;
+  }
 }
 
 .primary-textbox {
