@@ -1,6 +1,5 @@
 import React from "react";
 import './SectionHeader.css';
-import '../../components/utilities/Media.css';
 import SingleButton from "../singleButton/SingleButton";
 import Button from "../button/Button";
 import logo from "../../images/logo.svg";
