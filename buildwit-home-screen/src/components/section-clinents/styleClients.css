@@ -21,6 +21,12 @@
           flex-direction: column;
 }
 
+@media only screen and (max-width: 750px) {
+  .mid-div {
+    height: 60%;
+  }
+}
+
 .client-textbox {
   width: 71.5%;
   color: #395D5A;
@@ -82,11 +88,23 @@
           clip-path: polygon(100% 0, 13% 0, 100% 100%);
 }
 
+@media only screen and (max-width: 750px) {
+  .upper-clip {
+    height: 22%;
+  }
+}
+
 .bottom-clip {
   height: 22%;
   width: 100%;
   background-color: rgba(57, 93, 90, 0.1);
   -webkit-clip-path: polygon(80% 100%, 0 0, 0 100%);
           clip-path: polygon(80% 100%, 0 0, 0 100%);
+}
+
+@media only screen and (max-width: 750px) {
+  .bottom-clip {
+    height: 18%;
+  }
 }
 /*# sourceMappingURL=styleClients.css.map */
