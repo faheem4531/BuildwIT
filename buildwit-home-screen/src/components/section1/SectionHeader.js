@@ -33,22 +33,22 @@ const SectionHeader = () => {
 
         <div className="section-1-content">
            
-                <div className="section-1-content-video-div">
-                    <video autoPlay loop muted className="section-1-content-video" src={video1} />
-                </div>
+            <div className="section-1-content-video-div">
+                <video autoPlay loop muted className="section-1-content-video" src={video1} />
+            </div>
                 
 
-        <div className="section-1-content-textbox">
-            <h1 className="section-1-content-heading ">
-                <span className="text-1">Builtw</span>
-                <span className="text-2">IT</span>
-            </h1>
-            <div className="section-1-content-para-div" >
-                <p className="section-1-content-para">We allow Architects, Atrists & Enthusiats to model, visualize and analyze buildings.</p>
-                <p className="section-1-content-para">Powered by World leading technologies to bring interative enviroment for everyone.</p>
+            <div className="section-1-content-textbox">
+                <h1 className="section-1-content-heading ">
+                    <span className="text-1">Builtw</span>
+                    <span className="text-2">IT</span>
+                </h1>
+                <div className="section-1-content-para-div" >
+                    <p className="section-1-content-para">We allow Architects, Atrists & Enthusiats to model, visualize and analyze buildings.</p>
+                    <p className="section-1-content-para">Powered by World leading technologies to bring interative enviroment for everyone.</p>
+                </div>
+                <div className="btn-width"><Button buttonTitle='Create a Free Account'/></div>
             </div>
-            <div className="btn-width"><Button buttonTitle='Create a Free Account'/></div>
-        </div>
            
             
         
