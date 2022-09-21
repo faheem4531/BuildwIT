@@ -13,6 +13,11 @@
     background-position: right bottom;
 
 
+    @media only screen and (max-width:1000px){
+        height: 110vh;
+    
+    }
+
 
     &-content{
         color: #FFFFFF;

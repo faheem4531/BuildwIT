@@ -17,6 +17,12 @@
   background-position: right bottom;
 }
 
+@media only screen and (max-width: 1000px) {
+  .section-2 {
+    height: 110vh;
+  }
+}
+
 .section-2-content {
   color: #FFFFFF;
   display: -webkit-box;

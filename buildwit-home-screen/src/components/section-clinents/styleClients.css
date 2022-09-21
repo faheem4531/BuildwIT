@@ -21,7 +21,7 @@
           flex-direction: column;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
   .mid-div {
     height: 60%;
   }
@@ -73,8 +73,8 @@
 }
 
 .clients-row .card-div div {
-  width: 160px;
-  height: 156px;
+  width: 150px;
+  height: 146px;
   background: #C4C4C4;
   border-radius: 10px;
   margin-bottom: 9px;
@@ -90,7 +90,7 @@
 
 @media only screen and (max-width: 750px) {
   .upper-clip {
-    height: 22%;
+    height: 20%;
   }
 }
 
@@ -104,7 +104,7 @@
 
 @media only screen and (max-width: 750px) {
   .bottom-clip {
-    height: 18%;
+    height: 20%;
   }
 }
 /*# sourceMappingURL=styleClients.css.map */
