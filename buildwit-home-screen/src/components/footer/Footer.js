@@ -8,26 +8,26 @@ import fb from '../../images/Facebook.svg';
 
 
 
-const Footer = () =>{
-    return(
+const Footer = () => {
+    return (
         <div className="footer">
 
             <div className="footer-content">
 
                 <div className="left-section">
                     <div className="logo-card">
-                        <img src={logo}/>
+                        <img src={logo} />
                     </div>
                     <div className="icon-div">
-                        <img src={fb}/>
-                        <img src={twitter}/>
-                        <img src={google}/>
+                        <img src={fb} />
+                        <img src={twitter} />
+                        <img src={google} />
                     </div>
                 </div>
                 <div className="right-section">
 
                     <ul className="list-1">
-                        <li className="list-heading span">Our Clients</li>
+                        <li className="list-heading span">Clients</li>
                         <li><a href="#">Wesbite link</a></li>
                         <li><a href="#">Wesbite link</a></li>
                         <li><a href="#">Wesbite link</a></li>
@@ -55,7 +55,7 @@ const Footer = () =>{
 
 
                 </div>
-                
+
             </div>
 
             <div className="copyright">Copyright © 2022 BuiltwIT. All rights reserved.</div>
